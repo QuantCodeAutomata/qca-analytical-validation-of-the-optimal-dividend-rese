@@ -1,0 +1,38 @@
+{
+  "experiment": "exp1",
+  "finiteness": {
+    "baseline_tilde_rho": 0.0528125,
+    "baseline_bar_z": 0.105625,
+    "passed": true
+  },
+  "frictionless_benchmark": {
+    "tilde_rho": 0.0528125,
+    "bar_z": 0.105625,
+    "w_fric_analytical": 6.153846153846154,
+    "w_num_at_bar_z": 6.153846153846154,
+    "passed": true
+  },
+  "homogeneity": {
+    "all_pass": true,
+    "betas_tested": [
+      0.5,
+      1.0,
+      2.0,
+      5.0
+    ]
+  },
+  "reset_operator": {
+    "xi0_simplification_passed": true,
+    "xi0_max_diff": 0.0,
+    "xi1_no_reset_above_axi_passed": true
+  },
+  "structural_properties": {
+    "nonnegative": true,
+    "nonincreasing": true,
+    "lower_bound": true,
+    "upper_bound": "True",
+    "supercontact": "True",
+    "xi0_reset_simplification": true,
+    "no_reset_above_threshold": true
+  }
+}

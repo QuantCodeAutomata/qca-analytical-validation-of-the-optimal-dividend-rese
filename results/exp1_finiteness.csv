@@ -1,0 +1,7 @@
+label,mu,sigma,rho,p,tilde_rho,finite
+Baseline (paper),0.07,0.25,0.08,0.5,0.0528125,True
+Low rho — borderline finite,0.07,0.25,0.05,0.5,0.0228125,True
+Very low rho — infinite,0.07,0.25,0.02,0.5,-0.0071875,False
+High p — likely infinite,0.1,0.3,0.08,0.8,0.0072,True
+Low sigma — finite,0.07,0.1,0.08,0.5,0.04625,True
+High sigma — finite (more easily),0.07,0.5,0.08,0.5,0.07625,True

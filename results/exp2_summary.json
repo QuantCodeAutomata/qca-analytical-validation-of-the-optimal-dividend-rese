@@ -1,0 +1,68 @@
+{
+  "experiment": "exp2",
+  "grid": {
+    "N": 600,
+    "z_max": 4.0,
+    "tol": 1e-08
+  },
+  "lambda_assumption": 0.5,
+  "sweep_range_assumption": "Not from paper; implementation-chosen",
+  "baseline_tilde_rho": 0.0528125,
+  "baseline_bar_z": 0.105625,
+  "scenario_A": [
+    {
+      "label": "eta=0.1",
+      "z_star": 0.18697829716193656,
+      "z_upper": 0.00667779632721202,
+      "z_upper2": 0.02671118530884808,
+      "has_C2": true
+    },
+    {
+      "label": "eta\u22480",
+      "z_star": null,
+      "z_upper": 0.0,
+      "z_upper2": 0.994991652754591,
+      "has_C2": true
+    }
+  ],
+  "scenario_B_xi0": {
+    "z_star": null,
+    "z_0_reset": 0.0,
+    "has_C2": false,
+    "xi0_collapse_passed": true
+  },
+  "robustness": [
+    {
+      "config": "N=300",
+      "N": 300,
+      "z_max": 4.0,
+      "z_star": null,
+      "z_upper": 0.013377926421404682,
+      "z_upper2": 4.0
+    },
+    {
+      "config": "N=600",
+      "N": 600,
+      "z_max": 4.0,
+      "z_star": null,
+      "z_upper": 0.00667779632721202,
+      "z_upper2": 4.0
+    },
+    {
+      "config": "N=1000",
+      "N": 1000,
+      "z_max": 4.0,
+      "z_star": null,
+      "z_upper": 0.004004004004004004,
+      "z_upper2": 4.0
+    },
+    {
+      "config": "zmax=6",
+      "N": 600,
+      "z_max": 6.0,
+      "z_star": null,
+      "z_upper": 0.01001669449081803,
+      "z_upper2": 5.929883138564274
+    }
+  ]
+}
